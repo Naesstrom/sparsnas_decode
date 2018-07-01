@@ -3,7 +3,8 @@
   "version": "0.2",
   "slug": "Decoder for IKEA Sparsnas",
   "description": "Sparsnas Decoder",
-  "startup": "before",
+  "url": "https://github.com/tubalainen/sparsnas_decoder",
+  "startup": "application",
   "boot": "auto",
   "options": {
     "SENSORS": 1234 1000,
