@@ -1,0 +1,22 @@
+{
+  "name": "Sparsnas Decoder",
+  "version": "0.2",
+  "slug": "Decoder for IKEA Sparsnas",
+  "description": "Sparsnas Decoder",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "SENSORS": 1234 1000,
+    "mqtt_host": 192.168.x.x,
+    "mqtt_port": 1883,
+    "mqtt_username": "username",
+    "mqtt_password": "password"
+  },
+  "schema": {
+    "SENSORS": "int",
+    "mqtt_host": "int",
+    "mqtt_port": "int",
+    "mqtt_username": "str",
+    "mqtt_password": "str"
+  },
+}
