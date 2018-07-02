@@ -1,2 +1,2 @@
 # sparsnas_decode
-added all the files
+Decoder for Sparsnäs from IKEA

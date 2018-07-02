@@ -1,16 +1,15 @@
 {
-  "name": "Sparsnas Decoder",
-  "version": "0.2",
-  "slug": "Decoder for IKEA Sparsnas",
-  "description": "Sparsnas Decoder",
-  "url": "https://github.com/tubalainen/sparsnas_decoder",
+  "name": "Sparsnäs Decoder",
+  "version": "0.3",
+  "slug": "sparsnas_decoder",
+  "description": "Decoder for IKEA Sparsnäs",
   "startup": "application",
   "boot": "auto",
   "options": {
-    "SENSORS": 1234,
-    "PULSES": 10000,
-    "mqtt_host": 192.168.1.1,
-    "mqtt_port": 1883,
+    "SENSORS": "1234",
+    "PULSES": "10000",
+    "mqtt_host": "192.168.1.1",
+    "mqtt_port": "1883",
     "mqtt_username": "username",
     "mqtt_password": "password"
   },
@@ -21,5 +20,5 @@
     "mqtt_port": "int",
     "mqtt_username": "str",
     "mqtt_password": "str"
-  },
+  }
 }
